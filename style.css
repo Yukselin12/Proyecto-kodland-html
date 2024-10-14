@@ -9,3 +9,8 @@ h1 {
     font-size: 24px; /* El tamaño de la fuente de la cabecera */
     font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
 }
+
+a:hover{
+    transition: all 1s;
+    color: aqua;
+}
