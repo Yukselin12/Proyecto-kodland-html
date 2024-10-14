@@ -18,3 +18,7 @@ a:hover{
 a{
     transition: all 0.5s;
 }
+
+img{
+    margin-left: 20px;
+}
