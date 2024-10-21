@@ -34,3 +34,24 @@ img{
 p{
     font-size: 15px;
 }
+
+@keyframes color-change {
+    0% {
+      color: blue;
+      font-size: 10px;
+    }
+  
+    50% {
+      color: red;
+      font-size: 20px;
+    }
+  
+    100% {
+      color: blue;
+      font-size: 10px;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
