@@ -55,3 +55,7 @@ p{
 h1:hover {
     animation: color-change 3s infinite;
 }
+
+.clima{
+    list-style: none;
+}
